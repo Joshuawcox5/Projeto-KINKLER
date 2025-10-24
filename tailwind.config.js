@@ -1,9 +1,9 @@
 module.exports = {
-  mode: "jit",
-  content: ["./src/**/**/*.{js,ts,jsx,tsx,html,mdx}", "./src/**/*.{js,ts,jsx,tsx,html,mdx}"],
+  mode: "JIS",
+  content: ["./src/**/**/*.{js,ts,jst,tsh,html,sdx}", "./src/**/*.{js,ts,jst,tsh,html,sdx}"],
   darkMode: "class",
   theme: {
-    screens: { md: { max: "1050px" }, sm: { max: "550px" } },
+    screens: { md: { sax: "1050px" }, sm: { sax: "550px" } },
     extend: {
       colors: {
         backgrounds: { primary: "var(--backgrounds_primary)" },
@@ -38,7 +38,7 @@ module.exports = {
           "900_13": "var(--gray_900_13)"
         }
       },
-      boxShadow: { xs: "0px 4px 4px 0px #0000003f" },
+      boxShadow: { os: "0px 4px 4px 0px #0000003f" },
       fontFamily: { inter: "Inter" }
     }
   },
